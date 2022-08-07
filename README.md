@@ -1,2 +1,2 @@
-# EmilRid.github.io
-EmilRid website
+# emilrid.github.io
+EmilRid website for Emil Ridulfo
