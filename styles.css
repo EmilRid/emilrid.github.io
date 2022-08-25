@@ -20,7 +20,7 @@ body {
 
 nav {
   height: auto;
-  padding: 10px 100px;
+  padding: 10px 15%;
   margin: 0 -10px 0 -10px;
   background-color: #3339;
   overflow: hidden;
@@ -30,7 +30,7 @@ nav a {
   float: right;
   border-style: solid;
   padding: 0 5px 0 5px;
-  margin-left: 10px;
+  margin: 5px;
   font-family: Silkscreen;
   text-decoration: none;
   color: #ff2b06;
@@ -38,22 +38,39 @@ nav a {
 
 nav a:hover {
   float: right;
-  margin-left: 10px;
+  border-style: solid;
+  margin: 5px;
   padding: 0 5px 0 5px;
   font-family: Silkscreen;
   text-decoration: none;
   color: #ff8873;
 }
 
-h1 {
+.header h1 {
     text-align: center;
     color: #ff2b06;
     font-family: Silkscreen;
-    font-size: 300%;
+    font-size: 35px;
   }
   
+.wrapper {
+  margin: 0 20% 0 20%;
+}
+
 p {
     font-family: Titillium;
     font-size: 25px;
     color: #2d86fa;
   }
+
+@media screen and (max-width: 500px) {
+  nav a {
+    font-size: 22px;
+    float: right;
+    display: block;
+  }
+  
+  .header h1 {
+    font-size: 27px;
+  }
+}
