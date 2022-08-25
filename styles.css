@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Silkscreen;
+  src: url(fonts/Silkscreen-Regular.ttf);
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url(fonts/TitilliumWeb-Regular.ttf);
+}
+
+body {
+    background-color: #414f5a;
+  }
+
+.header {
+  margin: -10px -10px 0 -10px;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav {
+  height: auto;
+  padding: 10px 100px;
+  margin: 0 -10px 0 -10px;
+  background-color: #3339;
+  overflow: hidden;
+}
+
+nav a {
+  float: right;
+  border-style: solid;
+  padding: 0 5px 0 5px;
+  margin-left: 10px;
+  font-family: Silkscreen;
+  text-decoration: none;
+  color: #ff2b06;
+}
+
+nav a:hover {
+  float: right;
+  margin-left: 10px;
+  padding: 0 5px 0 5px;
+  font-family: Silkscreen;
+  text-decoration: none;
+  color: #ff8873;
+}
+
+h1 {
+    text-align: center;
+    color: #ff2b06;
+    font-family: Silkscreen;
+    font-size: 300%;
+  }
+  
+p {
+    font-family: Titillium;
+    font-size: 25px;
+    color: #2d86fa;
+  }
