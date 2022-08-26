@@ -58,11 +58,21 @@ nav a:hover {
   margin: 0 15% 0 15%;
 }
 
-p {
+.email {
+  margin: 10% 0 0 0;
+}
+.email p {
     font-family: Titillium;
     font-size: 25px;
     color: #2d86fa;
+    display: inline;
   }
+
+.email a {
+  font-family: Titillium;
+  font-size: 25px;
+  color: #2d86fa;
+}
 /*
 @media screen and (max-width: 500px) {
   nav a {
