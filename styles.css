@@ -9,20 +9,19 @@
 }
 
 body {
-    background-color: #414f5a;
+  margin: 0;
+    background-color: #F9F6EE;
   }
 
 .header {
-  margin: -10px -10px 0 -10px;
-  background-color: #333;
+  background-color: #979693;
   overflow: hidden;
 }
 
 nav {
   height: auto;
-  padding: 10px 15%;
-  margin: 0 -10px 0 -10px;
-  background-color: #3339;
+  padding: 0 10% 0 0;
+  background-color: #cccac5;
   overflow: hidden;
 }
 
@@ -33,7 +32,7 @@ nav a {
   margin: 5px;
   font-family: Silkscreen;
   text-decoration: none;
-  color: #ff2b06;
+  color: #684c46;
 }
 
 nav a:hover {
@@ -47,10 +46,11 @@ nav a:hover {
 }
 
 .header h1 {
-    text-align: center;
-    color: #ff2b06;
-    font-family: Silkscreen;
-    font-size: 35px;
+  margin: 0 10% 0 10%;
+  float: right;
+  color: #754239;
+  font-family: Silkscreen;
+  font-size: 35px;
   }
   
 .wrapper {
@@ -71,6 +71,7 @@ p {
   }
   
   .header h1 {
+    margin-right: 50px;
     font-size: 27px;
   }
 }
