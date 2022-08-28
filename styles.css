@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: Silkscreen;
   src: url(fonts/Silkscreen-Regular.ttf);
@@ -9,7 +14,6 @@
 }
 
 body {
-  margin: 0;
     background-color: #F9F6EE;
   }
 
@@ -55,30 +59,55 @@ nav a:hover {
 }
 
 .wrapper {
-  margin: 0 15% 0 15%;
+  width: 100%;
 }
 
-.email {
-  margin: 10% 0 0 0;
-}
-.email p {
-    font-family: Titillium;
-    font-size: 25px;
-    color: #2d86fa;
-    display: inline;
-  }
-
-.email a {
+.adder {
+  width: auto;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+  background: #e9e7e3;
+  border-radius: 10px;
+  border: 3px solid #92918d;
   font-family: Titillium;
-  font-size: 25px;
-  color: #2d86fa;
 }
-/*
-@media screen and (max-width: 500px) {
-  nav a {
-    font-size: 22px;
-    float: right;
-    display: block;
+
+.adder-image {
+  width: 98%;
+  display: block;
+  margin: 10px auto 10px;
+  border-radius: 10px;
+  border: 3px solid #92918d;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 85%;
+    margin: 0 auto;
   }
-  
-}*/
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .adder {
+    overflow: hidden;
+  }
+
+  .adder-image {
+    margin-right: 10px;
+    width: 50%;
+    float: left;
+  }
+
+  article h2 {
+    font-size: 35px;
+  }
+
+  article p {
+    font-size: 25px;
+  }
+}
