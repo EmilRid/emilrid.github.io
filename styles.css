@@ -13,6 +13,11 @@
   src: url(fonts/TitilliumWeb-Regular.ttf);
 }
 
+@font-face {
+  font-family: OleaScript;
+  src: url(fonts/OleoScript-Regular.ttf);
+}
+
 body {
     background-color: #F9F6EE;
   }
@@ -29,6 +34,11 @@ body {
   font-size: 35px;
   margin: 2% 10% 2% 10%;
   float: right;
+  }
+
+  h2 {
+    font-family: OleaScript;
+    color: #645941;
   }
 
 nav {
@@ -64,7 +74,11 @@ nav a:hover {
 
 .article-link {
   text-decoration: none;
-  color: black; 
+  color: #645941; 
+}
+
+article:hover {
+  border: 4px solid black;
 }
 
 article {
