@@ -62,7 +62,7 @@ nav a:hover {
   width: 100%;
 }
 
-.adder {
+article {
   width: auto;
   margin: 15px 15px 15px 15px;
   padding: 15px 15px 15px 15px;
@@ -72,7 +72,7 @@ nav a:hover {
   font-family: Titillium;
 }
 
-.adder-image {
+article img {
   width: 98%;
   display: block;
   margin: 10px auto 10px;
@@ -80,10 +80,18 @@ nav a:hover {
   border: 3px solid #92918d;
 }
 
+article p {
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .wrapper {
     width: 85%;
     margin: 0 auto;
+  }
+
+  article p {
+    font-size: 20px;
   }
 }
 
@@ -93,7 +101,7 @@ nav a:hover {
     margin: 0 auto;
   }
 
-  .adder {
+  article {
     overflow: hidden;
   }
 
@@ -104,10 +112,10 @@ nav a:hover {
   }
 
   article h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   article p {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
