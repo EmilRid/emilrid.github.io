@@ -18,37 +18,52 @@
   src: url(fonts/OleoScript-Regular.ttf);
 }
 
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Medium;
+  src: url(fonts/RobotoMono-Medium.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Bold;
+  src: url(fonts/RobotoMono-Bold.ttf);
+}
+
 body {
-    background-color: #F9F6EE;
+    background-color: #FFFFFF;
   }
 
 .header {
-  background-color: #979693;
+  background-color: #EFEFEF;
   overflow: hidden;
 }
 
 .header h1 {
-  color: #754239;
-  text-shadow: 2px 2px black;
-  font-family: Silkscreen;
+  color: black;
+  /*text-shadow: 2px 2px black;*/
+  font-family: RobotoMono-Bold;
   font-size: 35px;
   margin: 2% 10% 2% 10%;
   float: right;
   }
 
   h2 {
-    font-family: OleaScript;
+    font-family: RobotoMono-Medium;
     color: #645941;
   }
 
 nav {
+  background-color: #F3F3F3;
   padding: 1% 10% 1% 0;
-  background-color: #cccac5;
   overflow: hidden;
 }
 
 nav a {
-  color: #684c46;
+  color: #666666;
   text-decoration: none;
   text-shadow: 1px 1px black;
   font-family: Silkscreen;
@@ -74,21 +89,21 @@ nav a:hover {
 
 .article-link {
   text-decoration: none;
-  color: #645941; 
+  color: #525252; 
 }
 
 article:hover {
-  border: 4px solid black;
+  border: 3px solid black;
+  background-color: #EFEFEF;
 }
 
 article {
   width: auto;
   margin: 15px 15px 15px 15px;
   padding: 15px 15px 15px 15px;
-  background: #e9e7e3;
   border-radius: 10px;
-  border: 3px solid #92918d;
-  font-family: Titillium;
+  border: 3px solid #666666;
+  font-family: RobotoMono-Regular;
 }
 
 article img {

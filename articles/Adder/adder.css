@@ -17,6 +17,21 @@
     font-family: OleaScript;
     src: url(../../fonts/OleoScript-Regular.ttf);
   }
+
+  @font-face {
+    font-family: RobotoMono-Regular;
+    src: url(../../fonts/RobotoMono-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: RobotoMono-Medium;
+    src: url(../../fonts/RobotoMono-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: RobotoMono-Bold;
+    src: url(../../fonts/RobotoMono-Bold.ttf);
+  }
   
   body {
       background-color: #F9F6EE;
@@ -30,7 +45,7 @@
   .header h1 {
     color: #754239;
     text-shadow: 2px 2px black;
-    font-family: Silkscreen;
+    font-family: RobotoMono-Bold;
     font-size: 35px;
     margin: 2% 10% 2% 10%;
     float: right;
