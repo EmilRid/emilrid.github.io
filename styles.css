@@ -34,8 +34,8 @@
 }
 
 body {
-    background-color: #FFFFFF;
-  }
+  background-color: #FFFFFF;
+}
 
 .header {
   background-color: #EFEFEF;
@@ -43,18 +43,24 @@ body {
 }
 
 .header h1 {
-  color: black;
-  /*text-shadow: 2px 2px black;*/
+  text-align: center;
   font-family: RobotoMono-Bold;
-  font-size: 35px;
+  font-size: 30px;
   margin: 2% 10% 2% 10%;
   float: right;
-  }
+}
 
-  h2 {
-    font-family: RobotoMono-Medium;
-    color: #645941;
-  }
+.profile img {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.profile p {
+  font-size: 18px;
+  font-family: RobotoMono-Regular;
+}
+
 
 nav {
   background-color: #F3F3F3;
@@ -65,7 +71,6 @@ nav {
 nav a {
   color: #666666;
   text-decoration: none;
-  text-shadow: 1px 1px black;
   font-family: Silkscreen;
   padding: 0 5px 0 5px;
   margin: 5px;
@@ -76,7 +81,7 @@ nav a {
 nav a:hover {
   font-family: Silkscreen;
   text-decoration: none;
-  color: #ff8873;
+  color: #E5614C;
   padding: 0 5px 0 5px;
   margin: 5px;
   float: right;
@@ -84,12 +89,14 @@ nav a:hover {
 }
 
 .wrapper {
-  width: 100%;
+  margin: 25px auto;
+  width: 90%;
+  display: block;
 }
 
 .article-link {
   text-decoration: none;
-  color: #525252; 
+  color: black;
 }
 
 article:hover {
@@ -98,41 +105,67 @@ article:hover {
 }
 
 article {
+  display: table-cell;
   width: auto;
   margin: 15px 15px 15px 15px;
   padding: 15px 15px 15px 15px;
-  border-radius: 10px;
   border: 3px solid #666666;
-  font-family: RobotoMono-Regular;
 }
 
 article img {
   width: 98%;
   display: block;
   margin: 10px auto 10px;
-  border-radius: 10px;
   border: 3px solid #92918d;
 }
 
 article p {
-  font-size: 20px;
+  font-family: RobotoMono-Regular;
+  font-size: 15px;
+}
+
+article h2 {
+  display: inline;
+  padding: 0 6px;
+  font-size: 16px;
+  color: white;
+  background-color: #666666;
+  font-family: RobotoMono-Medium;
 }
 
 @media only screen and (min-width: 768px) {
   .wrapper {
     width: 85%;
-    margin: 0 auto;
   }
 
+  article h2 {
+    font-size: 30px;
+  }
   article p {
     font-size: 20px;
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1500px) {
+
+  .profile {
+    display: table-cell;
+  }
+
   .wrapper {
     width: 70%;
-    margin: 0 auto;
+  }
+
+  .profile img {
+    float: left;
+    width: 30%;
+    margin: 25px;
+  }
+
+  .profile p {
+    height: 100%;
+    font-size: 1.2vw;
+    margin: 25px;
   }
 
   article {
@@ -142,10 +175,12 @@ article p {
   .adder-image {
     margin-right: 10px;
     width: 50%;
+    display: table-cell;
     float: left;
   }
 
   article h2 {
+    margin-right: 25%;
     font-size: 40px;
   }
 
