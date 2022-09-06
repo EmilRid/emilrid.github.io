@@ -43,8 +43,7 @@
   }
   
   .header h1 {
-    color: #754239;
-    text-shadow: 2px 2px black;
+    color: black;
     font-family: RobotoMono-Bold;
     font-size: 35px;
     margin: 2% 10% 2% 10%;
@@ -54,7 +53,7 @@
     h2 {
       font-size: 28px;
       text-align: center;
-      font-family: OleaScript;
+      font-family: RobotoMono-Medium;
       color: #645941;
     }
   
